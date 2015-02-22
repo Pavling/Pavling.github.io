@@ -1,0 +1,2 @@
+# Freakular Blog
+
