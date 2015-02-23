@@ -36,6 +36,9 @@ image:
   </header>
   <div data-post-url="{{ post.url }}" class="entry-content{% unless post.link %} preview{% endunless %}">
     {{ post.content }}
+    {% unless post.link %}
+      <div class="read-more">click to read more</div>
+    {% endunless %}
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 {% endfor %}
