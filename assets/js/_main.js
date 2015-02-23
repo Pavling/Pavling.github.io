@@ -1,5 +1,12 @@
 /*! Plugin options and other jQuery stuff */
 
+// '_blank' targets for off-site links
+$(function() {
+  $('a').filter(function() {
+    return this.hostname != window.location.hostname;
+  }).attr('target', '_blank');
+});
+
 // dl-menu options
 $(function() {
   $( '#dl-menu' ).dlmenu({
