@@ -7,6 +7,11 @@ $(function() {
   }).attr('target', '_blank');
 });
 
+// clicking preview windows to open post
+$(".preview").click(function(){
+  window.location.href = $(this).data("post-url");
+});
+
 // dl-menu options
 $(function() {
   $( '#dl-menu' ).dlmenu({
