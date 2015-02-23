@@ -31,6 +31,11 @@ body {
 	overflow: hidden;
 	position: relative;
 
+	:hover {
+		cursor: pointer;
+		cursor: hand;
+	}
+
 	::before {
 		background-image: linear-gradient( top,
 			rgba( 255, 255, 255, 0 ) 0%,
