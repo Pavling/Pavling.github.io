@@ -7,7 +7,7 @@ tags: [sublime text]
 image:
   feature: sublime-text-user-preferences.jpg
   credit:
-  creditlink: 
+  creditlink:
 ---
 
 Every time I set up a new dev environment, I prefer to set my preferences to comfortable defaults.
@@ -17,6 +17,7 @@ Every time I set up a new dev environment, I prefer to set my preferences to com
   "always_show_minimap_viewport": true,
   "auto_complete_commit_on_tab": true,
   "color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+  "ensure_newline_at_eof_on_save": true,
   "find_selected_text": true,
   "font_face": "Ubuntu Mono",
   "font_size": 12,
@@ -29,7 +30,8 @@ Every time I set up a new dev environment, I prefer to set my preferences to com
     "Vintage"
   ],
   "tab_size": 2,
-  "translate_tabs_to_spaces": true
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true
 }
 {% endhighlight %}
 
